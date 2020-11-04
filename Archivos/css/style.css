@@ -1,0 +1,226 @@
+/* GENERAL */
+
+body {
+    background: #000D14;
+    font-family: 'Inter', sans-serif;
+    max-width: 1500px;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 0 20px 0;
+}
+body.whitemode {
+    background: white;
+}
+
+.main{
+    /* padding-top: 15rem; */
+    padding-bottom: 15rem; 
+}
+
+h1{
+	font-size: 50px; 
+}
+
+h1, h2, h3, p{
+    color: white;
+}
+h1.whitemode, h2.whitemode, h3.whitemode, p.whitemode{
+	color: black;
+}
+
+text {
+    fill: white;
+}
+text.whitemode {
+    fill: black;
+}
+
+.hidden {
+	display: none;
+}
+
+
+
+
+/* PORTADA */
+
+#particles-js{
+    background: transparent;
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    width: 100%;
+}
+
+#inicio {
+    min-height: 100vh;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#titulo_portada {
+    padding-top: 25vh;
+}
+
+#titulo {
+    text-align: center;
+    margin: 150 0 75;
+    font-family: 'Inter', sans-serif;
+}
+
+#botones1{
+    width: 100%;
+    margin-top: 75px;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 5rem;
+  }
+
+.boton1 {
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    padding: 20px;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.5em;
+    transition: all 0.2s linear;
+}
+    .boton1:hover {
+        background-color: rgb(56, 71, 70);
+    }
+    .boton1.whitemode {
+        border: 1px solid black;
+        color: black;
+    }
+
+.espaciador1 {
+    display: inline-block;
+    height: 10px;
+    width: 160px;
+}
+
+.boton_pequeño{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 11px;
+    background: linear-gradient(90deg, black 50%, white 50%);
+    border-radius: 20px;
+    border: 2px solid white;
+}
+    .boton_pequeño.whitemode {
+        background: linear-gradient(90deg, white 50%, black 50%);
+        border: 2px solid black;
+    }
+
+
+
+
+
+
+/* LA BARRA */
+
+.container{ /* Le da margen lateral a la barra */
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.header {
+    background: #000D14;
+    color: white;
+    padding: 0rem 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white; 
+    position: unset;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+    .header a{
+        color: white;
+        text-decoration: none;
+    }
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    letter-spacing: 12px;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.menu-icon{
+    display: none;
+    }
+
+.navigation ul{
+   padding: 0;
+   list-style: none; 
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s linear;   
+    border-radius: 5px; 
+}
+
+.navigation ul li a:hover{
+    background: #4a4a4a;
+}
+
+#bt_color, .boton_pequeño {
+    cursor: pointer; /* esto es para que el boton tenga un cursos "clickeable" */
+}
+
+@media only screen and (max-width: 1033px){
+
+    .menu-icon{
+    display: block;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    }
+
+    .navigation ul{
+        display: none;
+    }
+
+    .navigation ul.show{
+        display: block;
+    }
+    
+    .navigation{
+        width: 100%;
+        margin-top: 1rem; 
+    }
+    
+    .navigation ul li{
+        display: block;
+    }
+    .navigation ul li a{
+        display: block;
+        padding: 0.5rem 0rem;
+        transition: all 0.4s linear;   
+        border-radius: 5px; 
+    }
+
+    .navigation ul li a:hover{
+        background: #4a4a4a;
+    }
+
+}
+
+
