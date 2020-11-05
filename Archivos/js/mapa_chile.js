@@ -1,7 +1,7 @@
 var pos1 = 0
 var pos2 = 0
 
-var datos_chile = d3.dsv(";","../Archivos/datos_chile.csv", function(d, index) {
+var datos_chile = d3.dsv(";","/visualizacion_pv/Archivos/datos_chile.csv", function(d, index) {
     
     var id = d.IDE
     var nombre = d.Nombre
