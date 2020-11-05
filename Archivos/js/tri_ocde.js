@@ -3,7 +3,7 @@ var maximo = 600
 var rango = maximo - minimo
 var valor = 2
 
-d3.dsv(";","/Archivos/tri_ocde.csv", function(d, index) {
+d3.dsv(";","../Archivos/tri_ocde.csv", function(d, index) {
     return {
         pais: d.pais,
         codigo: d.codigo,
