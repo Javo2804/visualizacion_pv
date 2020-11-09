@@ -1,13 +1,4 @@
 # Grupo 2 - Educación, Inmigración y Energías Renovables.
 
-- URL página: https://grupo2-pv-2020-2.herokuapp.com/
-
-Este link se actualiza automáticamente con el contenido del repositorio en `main`.
-
-## Trabajo:
-Finalmente vamos a trabajar en una sola página, por lo que los cambios deberán ser realizados en `index.html`.
-
-## Cuidado:
-Para que el deploy directo a la URL funcione, no deben editar/eliminar los siguientes archivos:
-- `index.php`
-- `composer.json`
+- URL página 1: https://javo2804.github.io/visualizacion_pv/
+- URL actual 2: https://grupo2-pv-2020-2.herokuapp.com/
